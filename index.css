@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(44, 44, 212);
+  color: white;
+  width: 100%;
+}
+
+.header {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: calc(var(--body-border-width, 20px) * 2 / 1 + 0px);
+}
+.header-logo {
+  width: 20px;
+  cursor: pointer;
+  height: 25px;
+  padding-right: 10px;
+}
+
+.company {
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.selectors button {
+  margin: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(44, 44, 212);
+  color: white;
+}
+ 
+.selectors button:hover{
+    opacity: 0.5;
+}
+
+.subscribe button {
+  font-size: 70%;
+  cursor: pointer;
+  padding: 10px 25px;
+  border-radius: 100px;
+  border: 2px solid white;
+  background-color: rgb(44, 44, 212);
+  color: white;
+}
+.subscribe button:hover {
+    background: white;
+    color: rgb(44, 44, 212);
+  }
+
+.main {
+  padding-top: 16%;
+  display: flex-box;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+h1 {
+  font-size: 350%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.main p {
+  font-size: 130%;
+  line-height: 40px;
+}
+.body-logo {
+  height: 50px;
+  width: 50px;
+}
+.main button {
+  cursor: pointer;
+  font-size: 70%;
+  font-weight: bolder;
+  padding: 20px 55px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: white;
+  color: rgb(44, 44, 212);
+}
+.main button:hover {
+  background: rgb(44, 44, 212);
+  color: white;
+}
+
+.social-media {
+  position: fixed;
+  bottom: 0px;
+  padding-bottom: 40px;
+  width: 2%;
+  margin-left: 94%;
+  cursor: pointer;
+}
+
+.social-media button {
+  font-size: 70%;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+  border-width: thin;
+  margin: 4px;
+  border: 2px solid white;
+  background-color: rgb(44, 44, 212);
+  color: white;
+}
+
+.social-media button:hover {
+    background: white;
+  color: rgb(44, 44, 212);
+}
+
+.left-scroll {
+  font-size: 11px;
+  line-height: 1.7;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(44, 44, 212);
+  color: white;
+  cursor: pointer;
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 150px;
+  padding-left: 80px;
+}
+
+.middle-scroll {
+  position: fixed;
+  bottom: 0px;
+  padding-bottom: 40px;
+  width: 100%;
+  margin-left: 49%;
+  cursor: pointer;
+}
